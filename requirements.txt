@@ -27,3 +27,7 @@ six>=1.14
 joblib
 memoized-property
 termcolor
+
+google-cloud
+google-cloud-bigquery
+google-cloud-storage
