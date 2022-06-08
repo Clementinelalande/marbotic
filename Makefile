@@ -4,19 +4,6 @@
 install_requirements:
 	@pip install -r requirements.txt
 
-check_code:
-	@flake8 scripts/* marbotic/*.py
-
-black:
-	@black scripts/* marbotic/*.py
-
-test:
-	@coverage run -m pytest tests/*.py
-	@coverage report -m --omit="${VIRTUAL_ENV}/lib/python*"
-
-ftest:
-	@Write me
-
 clean:
 	@rm -f */version.txt
 	@rm -f .coverage
