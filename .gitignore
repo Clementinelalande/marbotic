@@ -8,3 +8,4 @@ data/
 **/__pycache__/
 .env
 .python-version
+.vscode/
