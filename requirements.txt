@@ -2,6 +2,8 @@ pytest
 pylint
 ipdb
 jupyterlab
+jupyter-contrib-nbextensions
+jupyter_nbextensions_configurator
 numpy
 pandas
 matplotlib
