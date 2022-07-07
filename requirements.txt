@@ -9,7 +9,7 @@ pandas
 matplotlib
 seaborn
 scikit-learn
-
+imbalanced-learn
 
 pyarrow
 google-cloud
